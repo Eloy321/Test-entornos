@@ -51,6 +51,18 @@ public class Ejercicio_entornosTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+     /**
+     * Test of multiplica method, of class Ejercicio_entornos.
+     */
+        @Test(timeout=)
+    public void testMultiplicaTimeout() {
+        System.out.println("multiplica");
+        int a = 35000;
+        int b = 35000;
+        int result = Ejercicio_entornos.multiplica(a, b);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 
     /**
      * Test of factorial method, of class Ejercicio_entornos.
